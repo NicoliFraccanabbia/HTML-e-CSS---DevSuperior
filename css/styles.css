@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --color-dark: #000000;
+  --modalities-blue: #222374;
+  --bg-light-gray: #cccccc;
+  --color-red: #f03c42;
+  --color-white: #ffffff;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+header {
+  background-color: var(--color-red);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 1200px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+
+header h1 {
+  color: var(--color-white);
+  font-size: 18px;
+}
+
+header p {
+  color: var(--color-white);
+  font-size: 14px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 0 120px;
+}
+
+.menu p {
+  display: flex;
+  padding: 10px;
+}
+
+.menu img {
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+
+.titulo {
+  margin: 0 120px;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 120px;
+}
+
+#info {
+  background-color: var(--modalities-blue);
+
+  display: flex;
+  position: absolute;
+  width: 1200px;
+  height: 418px;
+  left: 0px;
+  top: 100px;
+}
+.container h2 {
+  font-size: 32px;
+  color: var(--color-white);
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.main {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#modalidades {
+  background-color: var(--color-white);
+  position: absolute;
+  width: 1200px;
+  height: 880px;
+  left: 0px;
+  top: 518px;
+}
+
+#modalidades h2 {
+  color: var(--color-red);
+}
+
+.espaço-card {
+  background-color: var(--bg-light-gray);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.espaço-card h3 {
+  color: var(--color-dark);
+  font-size: 20px;
+}
+
+.espaço-card p {
+  color: var(--color-dark);
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.modalidades-card {
+  background-color: var(--modalities-blue);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.modalidades-card h3 {
+  color: var(--color-white);
+  font-size: 20px;
+}
+
+.modalidades-card p {
+  color: var(--bg-light-gray);
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+footer {
+  display: flex;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  padding-top: 60px;
+  margin-top: 30px;
+  padding-bottom: 60px;
+  position: absolute;
+  width: 1200px;
+  height: 262px;
+  left: 0px;
+  top: 1398px;
+}
+
+.dados {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+}
+
+.redes img {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+.infos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
